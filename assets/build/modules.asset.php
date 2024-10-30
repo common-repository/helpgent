@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('helpgent/components', 'helpgent/i18n', 'helpgent/modules', 'moment', 'react', 'react-dom', 'wp-api-fetch', 'wp-block-editor', 'wp-components', 'wp-element', 'wp-hooks', 'wp-i18n', 'wp-url'), 'version' => '1e7859527736291a6db4');

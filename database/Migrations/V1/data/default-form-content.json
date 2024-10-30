@@ -1,0 +1,408 @@
+{
+    "elements": [
+        {
+            "id": "3a6c8de9-1a8b-4764-b7bc-cd50dfe0245b",
+            "title": "End",
+            "element_type": "end",
+            "icon": "arrowSquareLeft",
+            "isPro": false,
+            "isComing": false,
+            "position": {
+                "x": -150,
+                "y": 0
+            },
+            "controls": {
+                "general": {
+                    "description": {
+                        "value": ""
+                    }
+                },
+                "socials": {
+                    "isActive": "1",
+                    "platforms": []
+                },
+                "fieldDesign": {
+                    "labelStyle": {
+                        "font_size": {
+                            "value": "30"
+                        },
+                        "font_weight": {
+                            "value": "500"
+                        },
+                        "text_color": {
+                            "value": "#000000"
+                        }
+                    },
+                    "descriptionStyle": {
+                        "font_size": {
+                            "value": "14"
+                        },
+                        "font_weight": {
+                            "value": "400"
+                        },
+                        "text_color": {
+                            "value": "#3C3C3C"
+                        }
+                    },
+                    "buttonStyle": {
+                        "btn_color": {
+                            "value": " #6551F2"
+                        },
+                        "btn_radius": {
+                            "value": " 10"
+                        },
+                        "btn_text_color": {
+                            "value": " #ffffff"
+                        },
+                        "btn_font_size": {
+                            "value": "15"
+                        }
+                    }
+                },
+                "externalButton": {
+                    "isActive": "1",
+                    "btn_text": "Try for Free",
+                    "btn_url": "https://wpwax.com"
+                }
+            },
+            "groupName": "initial",
+            "media": [],
+            "layout": "mediaLeft"
+        },
+        {
+            "id": "f0aa9412-4f3c-4b02-9b73-7d29adb42f2b",
+            "title": "User validation",
+            "element_type": "user_validation",
+            "icon": "useUnLock",
+            "isPro": false,
+            "position": {
+                "x": -150,
+                "y": 0
+            },
+            "default_field": {
+                "email": {
+                    "label": "Email"
+                }
+            },
+            "registered_field": {
+                "password": {
+                    "label": "Password"
+                }
+            },
+            "guest_field": {
+                "name": {
+                    "label": "Name",
+                    "isRequired": "1",
+                    "isVisible": "1"
+                },
+                "company_name": {
+                    "label": "Company name",
+                    "isRequired": "1",
+                    "isVisible": "1"
+                },
+                "phone_number": {
+                    "label": "Phone number",
+                    "isRequired": "1",
+                    "isVisible": "1"
+                }
+            },
+            "controls": {
+                "general": {
+                    "description": {
+                        "value": ""
+                    },
+                    "btn_text": {
+                        "value": "Continue"
+                    }
+                },
+                "fieldDesign": {
+                    "labelStyle": {
+                        "font_size": {
+                            "value": "20"
+                        },
+                        "font_weight": {
+                            "value": "500"
+                        },
+                        "text_color": {
+                            "value": "#000000"
+                        }
+                    },
+                    "descriptionStyle": {
+                        "font_size": {
+                            "value": "14"
+                        },
+                        "font_weight": {
+                            "value": "400"
+                        },
+                        "text_color": {
+                            "value": "#3C3C3C"
+                        }
+                    },
+                    "buttonStyle": {
+                        "btn_color": {
+                            "value": " #6551F2"
+                        },
+                        "btn_radius": {
+                            "value": " 10"
+                        },
+                        "btn_text_color": {
+                            "value": " #ffffff"
+                        },
+                        "btn_font_size": {
+                            "value": "15"
+                        }
+                    },
+                    "mediaStyle": {
+                        "video_overlay": {
+                            "isActive": "1"
+                        },
+                        "overlay_color": {
+                            "value": "#000000"
+                        },
+                        "overlay_opacity": {
+                            "value": "30"
+                        }
+                    }
+                }
+            },
+            "groupName": "verification",
+            "media": [],
+            "layout": "mediaLeft"
+        },
+        {
+            "id": "dae6c3d9-f4cd-4dba-97c6-4c115528f9cf",
+            "title": "Open Ended",
+            "element_type": "open_ended",
+            "icon": "openEnded",
+            "isPro": false,
+            "position": {
+                "x": -150,
+                "y": 0
+            },
+            "controls": {
+                "general": {
+                    "description": {
+                        "value": ""
+                    },
+                    "chat_title": {
+                        "value": ""
+                    },
+                    "footer_message": {
+                        "value": ""
+                    },
+                    "reply_methods": {
+                        "text": {
+                            "isActive": "1"
+                        },
+                        "video": {
+                            "isActive": "1"
+                        },
+                        "voice": {
+                            "isActive": "1"
+                        },
+                        "screen": {
+                            "isActive": "0"
+                        }
+                    },
+                    "text_fields": {
+                        "url": {
+                            "label": "Website url",
+                            "isRequired": "1",
+                            "isVisible": "1"
+                        },
+                        "phone_number": {
+                            "label": "Phone number",
+                            "isRequired": "1",
+                            "isVisible": "1"
+                        },
+                        "price": {
+                            "label": "Price/Quotes",
+                            "isRequired": "1",
+                            "isVisible": "1"
+                        },
+                        "doc": {
+                            "label": "Requirements doc",
+                            "isRequired": "1",
+                            "isVisible": "1"
+                        },
+                        "file": {
+                            "label": "File upload",
+                            "isRequired": "1",
+                            "isVisible": "1"
+                        }
+                    }
+                },
+                "fieldDesign": {
+                    "labelStyle": {
+                        "font_size": {
+                            "value": "24"
+                        },
+                        "font_weight": {
+                            "value": "600"
+                        },
+                        "text_color": {
+                            "value": "#000000"
+                        }
+                    },
+                    "descriptionStyle": {
+                        "font_size": {
+                            "value": "14"
+                        },
+                        "font_weight": {
+                            "value": "400"
+                        },
+                        "text_color": {
+                            "value": "#3C3C3C"
+                        }
+                    },
+                    "chatTitleStyle": {
+                        "font_size": {
+                            "value": "18"
+                        },
+                        "font_weight": {
+                            "value": "600"
+                        },
+                        "text_color": {
+                            "value": "#000000"
+                        }
+                    },
+                    "footerTextStyle": {
+                        "font_size": {
+                            "value": "13"
+                        },
+                        "font_weight": {
+                            "value": "400"
+                        },
+                        "text_color": {
+                            "value": "#6e6e6e"
+                        }
+                    },
+                    "buttonStyle": {
+                        "btn_color": {
+                            "value": " #6551F2"
+                        },
+                        "btn_radius": {
+                            "value": " 14"
+                        },
+                        "btn_text_color": {
+                            "value": " #ffffff"
+                        },
+                        "btn_font_size": {
+                            "value": "15"
+                        }
+                    },
+                    "mediaStyle": {
+                        "video_overlay": {
+                            "isActive": "1"
+                        },
+                        "overlay_color": {
+                            "value": "#000000"
+                        },
+                        "overlay_opacity": {
+                            "value": "30"
+                        }
+                    }
+                },
+                "elementLogic": {
+                    "isAdvanceActive": "0",
+                    "default_target": "3a6c8de9-1a8b-4764-b7bc-cd50dfe0245b"
+                }
+            },
+            "groupName": "answer",
+            "media": [],
+            "layout": "openEndedDefault"
+        }
+    ],
+    "global": {
+        "action_btn": {
+            "isActive": "1"
+        },
+        "go_to_next_text": {
+            "value": "OK"
+        },
+        "submission_text": {
+            "value": "Submit"
+        },
+        "helpgent_branding": {
+            "isActive": "1"
+        },
+        "save_incomplete_data": {
+            "isActive": "0"
+        },
+        "anonymous_submission": {
+            "isActive": "0"
+        },
+        "bubble": {
+            "background_type": {
+                "type": "",
+                "screen": "",
+                "color": "",
+                "upload": {}
+            },
+            "overlay_text": "",
+            "shape": "circle",
+            "border": {
+                "has_border": "1",
+                "color": "#6551F2"
+            },
+            "position": "left",
+            "offset_x": "30",
+            "offset_y": "30",
+            "size": "medium"
+        },
+        "media": {
+            "max_video_duration": {
+                "value": "2"
+            },
+            "max_voice_duration": {
+                "value": "2"
+            },
+            "max_upload_size": {
+                "value": "300",
+                "unit": "mb"
+            }
+        },
+        "email_notification": {
+            "admin_notification": {
+                "notify_on_new_response": {
+                    "isActive": "1"
+                },
+                "new_response_subject": {
+                    "value": "New Form Submission Alert"
+                },
+                "new_response_body": {
+                    "value": "<p>Hello {{TO_NAME}},</p><p>You have received a new submission for the {{FROM_NAME}}. Here are the details:</p><ul><li>User Name: {{FROM_EMAIL}}</li><li>IP Address: {{IP_ADDRESS}}</li><li>Submission Date and Time: {{NOW}}</li></ul><p>To access the complete submission details, kindly navigate to the admin panel by clicking on the link below: {{DASHBOARD_LINK}}</p><p>Best regards,</p><p>[Your Name]</p>"
+                },
+                "notify_on_user_message": {
+                    "isActive": "1"
+                },
+                "user_message_subject": {
+                    "value": "New Message Received Alert"
+                },
+                "user_message_body": {
+                    "value": "<p>Hello {{TO_NAME}},</p><p>You have received a new message for the {{FROM_NAME}}. Here are the details: </p><ul><li>User Name: {{FROM_EMAIL}}</li><li>IP Address: {{IP_ADDRESS}}</li><li>Submission Date and Time: {{NOW}}</li></ul><p>To continue the conversation, kindly visit the admin panel by clicking on this link: {{DASHBOARD_LINK}} </p><p>Best regards, </p><p>[Your Name]</p>"
+                }
+            },
+            "user_notification": {
+                "notify_on_new_response": {
+                    "isActive": "1"
+                },
+                "new_response_subject": {
+                    "value": "New Submission"
+                },
+                "new_response_body": {
+                    "value": "<p>Hello {{TO_NAME}},</p><p>Greetings and welcome to our platform!</p><p>We're delighted to inform you that your submission was successful, and we've received your message. </p><p>You can view your submission and continue the conversation through your dashboard by clicking on the following link: {{DASHBOARD_LINK}}</p><p>Thanks,</p><p>The Administrator of {{SITE_NAME}} </p>"
+                },
+                "notify_on_admin_message": {
+                    "isActive": "1"
+                },
+                "admin_message_subject": {
+                    "value": "New message form {{SITE_NAME}}"
+                },
+                "admin_message_body": {
+                    "value": "<p>Hello {{TO_NAME}},</p><p>You have received a new response from the admin. Here are the details:</p><ul><li>Message: {{MESSAGE}}</li><li>Submission Date and Time: {{NOW}}</li></ul><p>You can view the response and continue the conversation through your dashboard by clicking on the following link: {{DASHBOARD_LINK}}</p><p>Thanks, </p><p>The Administrator of {{SITE_NAME}} </p>"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,3378 @@
+# Copyright (C) 2024 wpWax
+# This file is distributed under the GPL v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: HelpGent 2.2.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/helpgent\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-28T17:52:25+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0-alpha\n"
+"X-Domain: helpgent\n"
+
+#. Plugin Name of the plugin
+#: helpgent.php
+#: app/Providers/Admin/MenuServiceProvider.php:42
+msgid "HelpGent"
+msgstr ""
+
+#. Description of the plugin
+#: helpgent.php
+msgid "HelpGent is a reliable, asynchronous communication tool that offers jaw-dropping qualities like video messaging, voice messaging, text messaging, and screen recording."
+msgstr ""
+
+#. Author of the plugin
+#: helpgent.php
+msgid "wpWax"
+msgstr ""
+
+#. Author URI of the plugin
+#: helpgent.php
+msgid "https://wpwax.com/"
+msgstr ""
+
+#: app/BackgroundProcessors/MediaMigration/BackgroundProcessor.php:162
+msgid "The migration is not currently running."
+msgstr ""
+
+#: app/BackgroundProcessors/MediaMigration/BackgroundProcessor.php:178
+msgid "Can't reset the running migration."
+msgstr ""
+
+#: app/Helpers/helper.php:269
+#: app/Repositories/SummaryRepository.php:47
+msgid "Field handler not found."
+msgstr ""
+
+#: app/Helpers/helper.php:275
+msgid "Please use a valid field handler."
+msgstr ""
+
+#: app/Helpers/helper.php:287
+msgid "There are no %s to export."
+msgstr ""
+
+#: app/Helpers/user.php:129
+msgid "The guest user token has expired"
+msgstr ""
+
+#: app/Http/Controllers/Admin/EmailThrottleController.php:21
+msgid "The email throttle has been reset successfully!"
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:121
+msgid "The form has been created successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:202
+msgid "The form has been duplicated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:261
+#: app/Http/Controllers/Admin/ResponseController.php:144
+#: app/Http/Controllers/Admin/TagController.php:162
+#: app/Http/Controllers/AttachmentController.php:412
+#: app/Http/Controllers/AttachmentMigrationController.php:172
+msgid "Oops, something went wrong. Please try again."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:268
+msgid "The form has been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:305
+msgid "The form status has been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:343
+msgid "The form title has been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:380
+msgid "The form has been deleted successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:413
+#: app/Http/Controllers/Admin/FormController.php:461
+#: app/Http/Controllers/UserController.php:201
+msgid "Sorry, Something was wrong."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:427
+msgid "Forms have been successfully deleted."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:471
+msgid "Forms status have been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:505
+msgid "Draft content saved"
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:624
+msgid "Option answers removed successfully!"
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:636
+#: app/Http/Controllers/ResponseController.php:252
+#: app/Http/Controllers/UserController.php:356
+#: app/Http/Controllers/UserController.php:427
+#: app/Http/Controllers/UserController.php:463
+#: app/Http/Controllers/UserController.php:507
+#: app/Repositories/AnswerRepository.php:41
+#: app/Repositories/FormRepository.php:227
+#: app/Repositories/FormRepository.php:256
+#: app/Repositories/FormRepository.php:282
+#: app/Repositories/FormRepository.php:296
+#: app/Repositories/FormRepository.php:326
+#: app/Repositories/ResponseRepository.php:207
+#: app/Repositories/SummaryRepository.php:30
+#: app/Repositories/SummaryRepository.php:66
+#: app/Repositories/TagRepository.php:65
+#: app/Repositories/TagRepository.php:89
+msgid "Form not found."
+msgstr ""
+
+#: app/Http/Controllers/Admin/FormController.php:708
+msgid "Element answers removed successfully!"
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:151
+msgid "The response has been deleted successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:189
+msgid "The response tag has been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:228
+msgid "Response read status updated successfully!"
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:266
+msgid "Response archive status updated successfully!"
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:302
+msgid "Response not found"
+msgstr ""
+
+#: app/Http/Controllers/Admin/ResponseController.php:312
+#: app/Http/Controllers/Admin/ResponseController.php:338
+msgid "User not found"
+msgstr ""
+
+#: app/Http/Controllers/Admin/SettingsController.php:54
+#: assets/build/944.js:1
+msgid "Settings have been saved successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/TagController.php:76
+msgid "A new tag has been created successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/TagController.php:127
+msgid "The tag has been updated successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/TagController.php:169
+msgid "The tag has been deleted successfully."
+msgstr ""
+
+#: app/Http/Controllers/Admin/UserController.php:48
+msgid "The guest list has been successfully exported."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentController.php:51
+#: app/Http/Controllers/AttachmentController.php:399
+#: app/MediaDriverMigration/Migrator.php:129
+msgid "The attachment could not be found."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentController.php:60
+msgid "Access is forbidden."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentController.php:234
+msgid "Sorry, this file type is not permitted."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentController.php:332
+msgid "The chunk data has been uploaded successfully!"
+msgstr ""
+
+#: app/Http/Controllers/AttachmentController.php:421
+msgid "The attachment has been successfully deleted."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:166
+#: app/Repositories/AttachmentTransferQueueRepository.php:175
+msgid "Item not found."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:175
+msgid "The attachment has been deleted successfully."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:213
+msgid "The migration has started successfully."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:221
+#: app/Http/Controllers/AttachmentMigrationController.php:233
+msgid "The background media migration processor was not initialized."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:290
+msgid "No active migration is found, please run the migration again."
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:422
+#: app/Http/Controllers/AttachmentMigrationController.php:449
+msgid "Could not stop the migration"
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:433
+msgid "The migration is about to stop"
+msgstr ""
+
+#: app/Http/Controllers/AttachmentMigrationController.php:464
+msgid "The migration has been reset successfully"
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:55
+#: app/Http/Controllers/ForwardController.php:145
+msgid "Sorry, the message could not be found."
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:68
+#: app/Http/Controllers/ForwardController.php:158
+msgid "The message response could not be found."
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:113
+#: app/Http/Controllers/ForwardController.php:225
+msgid "Messages forwarded successfully!"
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:169
+#: app/Http/Controllers/ResponseController.php:270
+#: app/Repositories/AnswerRepository.php:35
+#: app/Repositories/ResponseRepository.php:344
+msgid "Response not found."
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:180
+msgid "Sorry, this message cannot be forwarded."
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:188
+msgid "Sorry, messages in this response cannot be forwarded."
+msgstr ""
+
+#: app/Http/Controllers/ForwardController.php:234
+msgid "Sorry, you are not eligible to access the user list"
+msgstr ""
+
+#: app/Http/Controllers/MessageController.php:53
+#: app/Http/Controllers/MessageController.php:115
+#: app/Http/Controllers/MessageController.php:198
+#: app/Http/Controllers/MessageController.php:286
+#: app/Http/Controllers/MessageController.php:330
+msgid "Sorry, access to this response's conversations is not allowed."
+msgstr ""
+
+#: app/Http/Controllers/PageController.php:39
+msgid "Sorry, you are not allowed to preview this form. Only Administrator can preview this form."
+msgstr ""
+
+#: app/Http/Controllers/PageController.php:53
+msgid "Sorry, form not found."
+msgstr ""
+
+#: app/Http/Controllers/ResponseController.php:122
+#: app/Http/Controllers/ResponseController.php:132
+msgid "Agent not found"
+msgstr ""
+
+#: app/Http/Controllers/ResponseController.php:170
+msgid "Form not found"
+msgstr ""
+
+#: app/Http/Controllers/ResponseController.php:261
+msgid "Sending complete data in a single request is not allowed"
+msgstr ""
+
+#: app/Http/Controllers/ResponseController.php:274
+msgid "Response Already Completed"
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:100
+msgid "Logged out"
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:159
+msgid "Profile information has been successfully updated."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:187
+msgid "The old password you entered is incorrect."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:221
+msgid "The password has been successfully updated."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:248
+msgid "Please enter a valid email"
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:264
+msgid "The email has been successfully updated."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:324
+#: app/Http/Controllers/UserController.php:514
+msgid "User not found."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:328
+#: app/Http/Controllers/UserController.php:518
+msgid "The entry password is incorrect."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:433
+#: app/Http/Controllers/UserController.php:557
+#: app/Http/Controllers/UserController.php:594
+msgid "Guest user not found."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:583
+msgid "A login link has been sent to the email %s. Please check your inbox."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:602
+msgid "Token renewal is not possible as the existing token is still valid."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:631
+msgid "We've sent a login link to the email %s please check your inbox."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:642
+msgid "Sorry, Administrator account can't be deleted form here."
+msgstr ""
+
+#: app/Http/Controllers/UserController.php:651
+msgid "The account delete request was sent."
+msgstr ""
+
+#: app/Mail/Admin/NewMessageMailer.php:51
+#: app/Mail/NewMessageMailer.php:49
+msgid "This message contains media file, so please visit the dashboard page to view it"
+msgstr ""
+
+#: app/Mail/GuestLogin.php:65
+#: app/Mail/GuestTokenRenew.php:63
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Login"
+msgstr ""
+
+#: app/MediaDriverMigration/Migrator.php:115
+msgid "Queue item could not be found."
+msgstr ""
+
+#: app/MediaDriverMigration/Migrator.php:133
+msgid "Only failed items can be moved to the queue."
+msgstr ""
+
+#: app/MediaDriverMigration/Migrator.php:161
+#: app/MediaDriverMigration/Migrator.php:165
+#: app/MediaDriverMigration/Migrator.php:171
+msgid "Invalid media driver."
+msgstr ""
+
+#: app/MediaDriverMigration/MigratorHelper.php:23
+msgid "The attachment must be in the %s."
+msgstr ""
+
+#: app/MediaDriverMigration/MigratorHelper.php:25
+msgid "The attachment must be in the local drive."
+msgstr ""
+
+#: app/MediaDriverMigration/MigratorHelper.php:36
+msgid "The attachment is transferring. Please wait until the transfer process is finished."
+msgstr ""
+
+#: app/MediaDrivers/MediaDriverService.php:31
+msgid "Could not upload the file, please try again"
+msgstr ""
+
+#: app/MediaDrivers/MediaDriverService.php:49
+msgid "Could not create the file, please try again"
+msgstr ""
+
+#: app/MediaDrivers/MediaDriverService.php:55
+msgid "The type is not supported"
+msgstr ""
+
+#: app/Packages/BackgroundProcessor/WpBackgroundProcess.php:655
+msgid "Every Minute"
+msgstr ""
+
+#: app/Packages/BackgroundProcessor/WpBackgroundProcess.php:657
+msgid "Every %d Minutes"
+msgstr ""
+
+#: app/Providers/Admin/MediaProtectionNoticeProvider.php:68
+msgid "NGINX Server Configuration"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:43
+#: assets/build/227.js:1044
+msgid "All Forms"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:44
+msgid "Tags"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:45
+msgid "Contacts"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:46
+#: assets/build/172.js:1156
+#: assets/build/944.js:1
+msgid "Settings"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:47
+msgid "Media Migration"
+msgstr ""
+
+#: app/Providers/Admin/MenuServiceProvider.php:50
+msgid "Go Pro"
+msgstr ""
+
+#: app/Providers/Admin/UserServiceProvider.php:25
+msgid "Request for delete"
+msgstr ""
+
+#: app/Providers/Admin/UserServiceProvider.php:52
+msgid "%s days left"
+msgstr ""
+
+#: app/Providers/Admin/UserServiceProvider.php:54
+msgid "Will delete it today"
+msgstr ""
+
+#: app/Providers/Admin/UserServiceProvider.php:56
+msgid "Will delete it in the next queue"
+msgstr ""
+
+#: app/Repositories/AnswerRepository.php:102
+msgid "Unknown"
+msgstr ""
+
+#: app/Repositories/AttachmentRepository.php:102
+msgid "Could not create the attachment"
+msgstr ""
+
+#: app/Repositories/AttachmentRepository.php:112
+#: app/Repositories/AttachmentRepository.php:131
+#: app/Repositories/AttachmentTransferQueueRepository.php:94
+msgid "Attachment not found."
+msgstr ""
+
+#: app/Repositories/AttachmentRepository.php:269
+msgid "Please use a valid media driver."
+msgstr ""
+
+#: app/Repositories/AttachmentRepository.php:293
+msgid "Upload session could not be found."
+msgstr ""
+
+#: app/Repositories/AttachmentUploadSessionRepository.php:41
+#: app/Repositories/AttachmentUploadSessionRepository.php:62
+msgid "Session not found."
+msgstr ""
+
+#: app/Repositories/FormRepository.php:344
+msgid "Forms not found."
+msgstr ""
+
+#: app/Repositories/GuestRepository.php:14
+msgid "This email address already exists."
+msgstr ""
+
+#: app/Repositories/GuestRepository.php:20
+msgid "This email address is already in the user table."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:106
+msgid "This message was removed."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:147
+#: app/Repositories/ResponseRepository.php:288
+#: app/Repositories/ResponseRepository.php:392
+#: app/Repositories/ResponseRepository.php:406
+#: app/Repositories/ResponseTagRepository.php:22
+msgid "Form response not found."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:222
+#: app/Repositories/MessageRepository.php:255
+msgid "Message not found."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:228
+msgid "Sorry, you can't update this message."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:232
+msgid "Sorry, you can't update the attachment."
+msgstr ""
+
+#: app/Repositories/MessageRepository.php:261
+msgid "Sorry, you can't delete this message."
+msgstr ""
+
+#: app/Repositories/ResponseTagRepository.php:28
+#: app/Repositories/TagRepository.php:83
+#: app/Repositories/TagRepository.php:115
+msgid "Tag not found."
+msgstr ""
+
+#: app/Repositories/SummaryRepository.php:39
+msgid "Element not found"
+msgstr ""
+
+#: app/Repositories/TagRepository.php:56
+#: app/Repositories/TagRepository.php:95
+msgid "%s tag already exists."
+msgstr ""
+
+#: app/Support/Element/Fields/Date.php:25
+msgid "Date format not found."
+msgstr ""
+
+#: app/Support/Element/Fields/Map.php:48
+msgid "Location information is incorrect"
+msgstr ""
+
+#: app/Utils/AttemptValidator.php:35
+msgid "Please try again after %s."
+msgstr ""
+
+#: resources/views/admin/notice/migration-approval-notice.php:15
+msgid "Run Migration"
+msgstr ""
+
+#: resources/views/admin/notice/migration-old-data-removal-notice.php:15
+msgid "Delete Backup Data"
+msgstr ""
+
+#: resources/views/admin/notice/nginx-setup-notice.php:5
+msgid "It appears that your web server is NGINX, which doesn't support .htaccess type capabilities. Unfortunately, WordPress cannot automatically modify your server configuration."
+msgstr ""
+
+#: resources/views/admin/notice/nginx-setup-notice.php:7
+msgid "To address this, we kindly ask you to manually add the following rewrite rule to your NGINX server's configuration"
+msgstr ""
+
+#: resources/views/admin/notice/nginx-setup-notice.php:13
+msgid "Show Instruction"
+msgstr ""
+
+#: resources/views/admin/notice/nginx-setup-notice.php:14
+msgid "I Already Did It"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/447.js:540
+#: assets/build/844.js:1
+msgid "Back to all forms"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/446.js:1
+#: assets/build/844.js:1
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+#: assets/build/972.js:1
+#: assets/build/js/frontend/ChatBubble/index.js:5185
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Helpgent Media"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/420.js:197
+#: assets/build/798.js:1
+#: assets/build/844.js:1
+msgid "Responses"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/844.js:1
+msgid "Summary"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/844.js:1
+#: assets/build/844.js:1981
+msgid "Archive"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/844.js:1017
+msgid "Video Record"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/844.js:1017
+msgid "Screen Record"
+msgstr ""
+
+#: assets/build/31.js:1
+#: assets/build/844.js:1017
+msgid "ago"
+msgstr ""
+
+#: assets/build/31.js:682
+#: assets/build/227.js:183
+#: assets/build/231.js:1
+#: assets/build/420.js:1
+#: assets/build/844.js:1698
+#: assets/build/865.js:1
+#: assets/build/944.js:1
+#: assets/build/975.js:1
+#: assets/build/js/index.js:9163
+msgid "Resource not found"
+msgstr ""
+
+#: assets/build/31.js:682
+#: assets/build/227.js:183
+#: assets/build/231.js:1
+#: assets/build/420.js:1
+#: assets/build/844.js:1698
+#: assets/build/865.js:1
+#: assets/build/944.js:1
+#: assets/build/975.js:1
+#: assets/build/js/index.js:9163
+msgid "Invalid Request"
+msgstr ""
+
+#: assets/build/31.js:682
+#: assets/build/227.js:183
+#: assets/build/231.js:1
+#: assets/build/420.js:1
+#: assets/build/844.js:1698
+#: assets/build/865.js:1
+#: assets/build/944.js:1
+#: assets/build/975.js:1
+#: assets/build/js/index.js:9163
+msgid "Invalid data"
+msgstr ""
+
+#: assets/build/31.js:682
+#: assets/build/172.js:295
+#: assets/build/227.js:183
+#: assets/build/231.js:1
+#: assets/build/420.js:1
+#: assets/build/798.js:1
+#: assets/build/844.js:1698
+#: assets/build/865.js:1
+#: assets/build/944.js:1
+#: assets/build/975.js:1
+#: assets/build/js/index.js:9163
+msgid "Internal server error"
+msgstr ""
+
+#: assets/build/31.js:682
+#: assets/build/227.js:183
+#: assets/build/231.js:1
+#: assets/build/420.js:1
+#: assets/build/844.js:1698
+#: assets/build/865.js:1
+#: assets/build/944.js:1
+#: assets/build/975.js:1
+#: assets/build/js/index.js:9163
+msgid "Technical error"
+msgstr ""
+
+#: assets/build/31.js:796
+msgid "Response Summary"
+msgstr ""
+
+#: assets/build/31.js:796
+msgid "View individual element summary"
+msgstr ""
+
+#: assets/build/31.js:796
+msgid "summery is not available in free version"
+msgstr ""
+
+#: assets/build/31.js:796
+#: assets/build/446.js:1
+#: assets/build/822.js:1
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+#: assets/build/js/frontend/ChatBubble/index.js:8856
+#: assets/build/js/index.js:11218
+msgid "Loading"
+msgstr ""
+
+#: assets/build/31.js:796
+msgid "Response summary"
+msgstr ""
+
+#: assets/build/31.js:796
+msgid "%s out of %s people answered this element"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Element removed successfully"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Option removed successfully"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "No, cancel"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Changing"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/172.js:1156
+#: assets/build/665.js:1
+#: assets/build/798.js:1
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Deleting"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Yes, change type"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Yes, delete it"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Warning:"
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Deleting this %s will result in the permanent loss of response data associated with this %s."
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "If logic rules are applied to this %s, deleting it will break the logic."
+msgstr ""
+
+#: assets/build/46.js:1
+#: assets/build/665.js:1
+msgid "Are you sure you want to delete it?"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/844.js:470
+#: assets/build/862.js:176
+#: assets/build/862.js:723
+msgid "Save"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/844.js:470
+#: assets/build/862.js:176
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Ready to Send?"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/844.js:470
+#: assets/build/862.js:176
+msgid "Type your text here"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/46.js:370
+#: assets/build/420.js:1
+#: assets/build/798.js:1
+#: assets/build/844.js:470
+#: assets/build/844.js:486
+#: assets/build/844.js:664
+#: assets/build/844.js:4255
+#: assets/build/862.js:176
+#: assets/build/862.js:370
+#: assets/build/865.js:1
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Cancel"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/844.js:470
+#: assets/build/844.js:4255
+#: assets/build/862.js:176
+msgid "Please select a file"
+msgstr ""
+
+#: assets/build/46.js:176
+#: assets/build/46.js:370
+#: assets/build/844.js:470
+#: assets/build/844.js:664
+#: assets/build/862.js:176
+#: assets/build/862.js:370
+msgid "Please wait..."
+msgstr ""
+
+#: assets/build/46.js:192
+#: assets/build/844.js:486
+#: assets/build/862.js:192
+msgid "To Record %s, your browser will need to request access to your %s."
+msgstr ""
+
+#: assets/build/46.js:192
+#: assets/build/844.js:486
+#: assets/build/862.js:192
+msgid "Request Permission"
+msgstr ""
+
+#: assets/build/46.js:192
+#: assets/build/844.js:486
+#: assets/build/862.js:192
+msgid "Please grant the requested permission"
+msgstr ""
+
+#: assets/build/46.js:192
+#: assets/build/844.js:486
+#: assets/build/844.js:4098
+#: assets/build/862.js:192
+msgid "Click anywhere to skip the countdown"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/604.js:1
+#: assets/build/862.js:723
+msgid "Select or Upload Media Of Your Chosen Persuasion"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/604.js:1
+#: assets/build/862.js:723
+msgid "Use this media"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/862.js:723
+msgid "Add Media"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/862.js:723
+#: assets/build/js/frontend/ChatBubble/index.js:280
+#: assets/build/modules.js:280
+msgid "Record Video"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/862.js:723
+msgid "Change"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/844.js:4255
+#: assets/build/862.js:723
+msgid "Remove"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+#: assets/build/798.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/172.js:1156
+#: assets/build/420.js:197
+#: assets/build/665.js:1
+#: assets/build/798.js:1
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+msgid "Delete"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/447.js:540
+#: assets/build/665.js:1
+msgid "Coming Soon"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Delete element"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Basic"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Contact"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Choices"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Rating & Ranking"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Answers"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Security"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Welcome & End"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "Find an element"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/665.js:1
+msgid "All elements"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add checkbox"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Ex: I agree to...."
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Required"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Show timer"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Timer Text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Time in mins"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Time to complete"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "It displays an estimated time to users, giving them an idea of how long the form may take to complete. Great for increasing form submission rates."
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Button text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Button url"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add action button"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Max characters"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Placeholder text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Drop file here or click to upload"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Upload note"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Max File Size 10MB"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Limit file size"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Max allowed size 200MB"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Limit number of files"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Max allowed file 50"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Social links"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/420.js:197
+#: assets/build/components.js:1
+msgid "Select"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Enter %s URL link"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add Social Link"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add button"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Button Url"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Min value"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Max value"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Start value"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Date format"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Date separator"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Hide"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/844.js:1981
+msgid "Show"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Make optional"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Make required"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Options"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Remove option?"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add Option"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "image"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Only image files are allowed."
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Replace"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add Image"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add new"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Lowest rating text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Highest rating text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Users can reply in"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Edit text fields"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Rating icon"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Rating amount"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Value must be less than or equal to 10"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "User validation field"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "The User Validation Field validates user emails to identify whether users are registered members or guests. If \"Anonymous Submission\" is enabled, the \"User Validation Field\" is automatically removed from the form."
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Default field"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Registered user field"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Guest user field"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Collect lead"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add your location on Google Maps"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Collect user location"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Description"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "GDPR consent"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Label"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Place the linking text between two %s mark. %s Ex: %slink%s"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "GDPR label"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Link url"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Link url more info <a href=\"#\">test</a>"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Quotation marks"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Background overlay"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Overlay color"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Overlay opacity"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Icon"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Title"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Button"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Chat title"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Footer text"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "color"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Question elements"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Welcome & Endings screens"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Change element"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Update element type?"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "The GDPR element ensures compliance by requesting user consent before data collection. It enhances transparency and accountability in data handling processes, aligning with the principles of the General Data Protection Regulation (GDPR)"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Element settings"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Min value must not be greater than Max value"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Time Format"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "24 Hours"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "AM/PM"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Default Time"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "None"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Current"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Minute Stepping"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "1"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "5"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "10"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "15"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "30"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Time Range"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Layout"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add image or video"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Color"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "System Fonts"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Goggle Fonts"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Select font"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+#: assets/build/862.js:723
+msgid "Select..."
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Background Style"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Image"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add image"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Screen content size"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add logic for"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "If"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "go to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is equal to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Is not equal to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "begins with"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "ends with"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "contains"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "does not contain"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is lower than"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is greater than"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is lower or equal"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is greater or equal"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is on"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is not on"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is before"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is after"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is before or on"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is after or on"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is not"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is at"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is not at"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is before or at"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "is after or at"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "And"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Select Time"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add condition"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Then"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Go to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Delete this rule"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/231.js:114
+#: assets/build/844.js:4255
+msgid "Done"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "All other cases go to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Always jump to"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Choose a destination…"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add Conditional Logic"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Add rule"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Remove logic"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Element"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Design"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Logic"
+msgstr ""
+
+#: assets/build/46.js:723
+#: assets/build/172.js:1156
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Back"
+msgstr ""
+
+#: assets/build/46.js:723
+msgid "Text field settings"
+msgstr ""
+
+#: assets/build/95.js:74
+msgid "Show More"
+msgstr ""
+
+#: assets/build/95.js:74
+msgid "Show Less"
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "Copied to clipboard!"
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "Unable to copy text to clipboard"
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "Clipboard API not supported"
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "You are about to delete"
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "All responses these forms has collected, including associated messages, will be deleted forever."
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "All responses this form has collected, including associated messages, will be deleted forever."
+msgstr ""
+
+#: assets/build/172.js:295
+#: assets/build/798.js:1
+msgid "Are you sure you want to proceed with the deletion?"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Close panel"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Your form has been published!"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Copy and paste this snippet to your code and put your form on your website."
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Copied"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Copy Code"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Copy shortcode"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Duplicate Form"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Fullscreen Mode"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "Only spaces are not allowed"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "Title is required"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "The title must consist of a minimum of 5 characters."
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Saving..."
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Saved in draft"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Editor"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/447.js:540
+#: assets/build/798.js:1
+msgid "Preview"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Publishing"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Publish"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "Delete Form"
+msgstr ""
+
+#: assets/build/172.js:1156
+#: assets/build/798.js:1
+msgid "Something went wrong"
+msgstr ""
+
+#: assets/build/172.js:1156
+msgid "Fullscreen, copy shortcode, duplicate & more..."
+msgstr ""
+
+#: assets/build/206.js:1
+#: assets/build/862.js:723
+msgid "Saving"
+msgstr ""
+
+#: assets/build/206.js:1
+msgid "Save Settings"
+msgstr ""
+
+#: assets/build/227.js:1
+#: assets/build/447.js:1
+#: assets/build/498.js:1
+msgid "Create a New Form"
+msgstr ""
+
+#: assets/build/227.js:1
+#: assets/build/447.js:1
+#: assets/build/498.js:1
+#: assets/build/798.js:1
+msgid "You can select a template to assist you, or start from scratch."
+msgstr ""
+
+#: assets/build/227.js:1
+#: assets/build/447.js:1
+#: assets/build/498.js:1
+msgid "Server Error"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Import attachment progress"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+#: assets/build/862.js:723
+msgid "Control where your form bubble appears by specifying the pages it's displayed on."
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Let’s get started"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Form Name"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "The title field is required"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Only spaces not allowed"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "The title field must be at least 5 characters."
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Enable Form Bubble?"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+#: assets/build/862.js:723
+msgid "Enable the Form Bubble to add a floating icon to your website. When activated, users can easily access and expand the form with a single click."
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Creating"
+msgstr ""
+
+#: assets/build/227.js:183
+#: assets/build/447.js:183
+#: assets/build/498.js:183
+msgid "Create Form"
+msgstr ""
+
+#: assets/build/227.js:1044
+#: assets/build/844.js:1981
+msgid "Active"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Inactive"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "My Forms"
+msgstr ""
+
+#: assets/build/227.js:1044
+#: assets/build/231.js:114
+#: assets/build/447.js:540
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+msgid "All"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Today"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Yesterday"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Last Week"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Last Month"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Custom"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Date Created"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Last Modified"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Alphabetical"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Last Submission"
+msgstr ""
+
+#: assets/build/227.js:1044
+#: assets/build/844.js:1981
+msgid "Unread"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Create New"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Search form"
+msgstr ""
+
+#: assets/build/227.js:1044
+#: assets/build/844.js:1981
+msgid "Filter"
+msgstr ""
+
+#: assets/build/227.js:1044
+msgid "Select a Timeframe"
+msgstr ""
+
+#: assets/build/231.js:1
+msgid "Media Migration Status"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Remaining Files"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Item(s) in Progress"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Item(s) Waiting"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Item(s) Failed"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Item(s) Done"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Retry All"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "No items found"
+msgstr ""
+
+#: assets/build/231.js:114
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Try again"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "File Name"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Type"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Transfer From"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Transfer To"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "File Size"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Created At"
+msgstr ""
+
+#: assets/build/231.js:114
+#: assets/build/798.js:1
+msgid "Status"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "In Progress"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Waiting"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Failed"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Idle"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Initialized"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Running"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Stopped"
+msgstr ""
+
+#: assets/build/231.js:114
+msgid "Migration"
+msgstr ""
+
+#: assets/build/231.js:114
+#: assets/build/844.js:4255
+msgid "Upload"
+msgstr ""
+
+#: assets/build/253.js:1
+#: assets/build/446.js:1
+#: assets/build/822.js:1
+#: assets/build/js/frontend/ChatBubble/index.js:1
+msgid "Powered by"
+msgstr ""
+
+#: assets/build/253.js:1
+msgid "Desktop"
+msgstr ""
+
+#: assets/build/253.js:1
+msgid "Tablet"
+msgstr ""
+
+#: assets/build/253.js:1
+msgid "Mobile"
+msgstr ""
+
+#: assets/build/253.js:1
+#: assets/build/972.js:1
+msgid "Preview your changes"
+msgstr ""
+
+#: assets/build/417.js:1
+msgid "Search settings here..."
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Tag name"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/components.js:1
+#: assets/build/hooks/index.js:4272
+#: assets/build/js/frontend/ChatBubble/index.js:1
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/js/frontend/ChatForm/index.js:4272
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:4272
+#: assets/build/modules.js:1
+#: assets/build/modules.js:204
+msgid "The field is required"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Assign tag to"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Update"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Create"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Are you sure you want to delete the tag?"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/798.js:1
+#: assets/build/975.js:53
+msgid "ID"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/798.js:1
+#: assets/build/975.js:53
+msgid "Name"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Form name"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Created date"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Action"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/js/index.js:11218
+msgid "Tags not found"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/798.js:1
+#: assets/build/844.js:4255
+#: assets/build/862.js:723
+msgid "Edit"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "All Tags"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Add New Tag"
+msgstr ""
+
+#: assets/build/420.js:197
+msgid "Add Tag"
+msgstr ""
+
+#: assets/build/420.js:197
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+msgid "Search"
+msgstr ""
+
+#: assets/build/447.js:540
+msgid "Template gallery"
+msgstr ""
+
+#: assets/build/447.js:540
+msgid "Not sure where to start? To get started, look through our pre-made templates."
+msgstr ""
+
+#: assets/build/447.js:540
+msgid "Helpgent Pre Made Template"
+msgstr ""
+
+#: assets/build/447.js:540
+#: assets/build/498.js:302
+msgid "Network response was not ok"
+msgstr ""
+
+#: assets/build/447.js:540
+#: assets/build/498.js:302
+msgid "There was a problem with the fetch operation:"
+msgstr ""
+
+#: assets/build/447.js:540
+#: assets/build/498.js:302
+msgid "Use this template"
+msgstr ""
+
+#: assets/build/447.js:540
+msgid "No template found"
+msgstr ""
+
+#: assets/build/447.js:540
+msgid "Categories"
+msgstr ""
+
+#: assets/build/498.js:302
+msgid "Back to template gallery"
+msgstr ""
+
+#: assets/build/665.js:1
+msgid "Screens"
+msgstr ""
+
+#: assets/build/665.js:1
+msgid "Add New"
+msgstr ""
+
+#: assets/build/665.js:1
+msgid "Endings"
+msgstr ""
+
+#: assets/build/665.js:1
+#: assets/build/862.js:723
+msgid "Add"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Welcome"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Create My First Form"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Form not found!"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Helpgent featured image"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Created:"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "All Responses"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Rename"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Rename, Duplicate & Delete"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Activate"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Deactivate"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Delete Forms"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "%s form selected"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "%s forms selected"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Clear selection"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "ShortCode"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Click to copy"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Copied!"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Created By"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "Updated"
+msgstr ""
+
+#: assets/build/798.js:1
+msgid "More"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input is required"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input must be at least %s"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input must not greater then %s"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input length must be at least %s"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input length must not greater then %s"
+msgstr ""
+
+#: assets/build/809.js:1
+msgid "The input has invalid data"
+msgstr ""
+
+#: assets/build/809.js:429
+msgid "Loading..."
+msgstr ""
+
+#: assets/build/844.js:1698
+msgid "List of Messages"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Completed"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Incomplete"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Search By Tags"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "There are no tags in this form"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "less"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "more"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Clear all"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Apply"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "All data associated with this response will be deleted forever."
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Once deleted, responses cannot be recovered."
+msgstr ""
+
+#: assets/build/844.js:1981
+#: assets/build/844.js:4255
+#: assets/build/js/index.js:11218
+msgid "Anonymous"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Delete Response"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Mark as read"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Mark as unread"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Latest"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Read"
+msgstr ""
+
+#: assets/build/844.js:1981
+msgid "Oldest"
+msgstr ""
+
+#: assets/build/844.js:4036
+msgid "Type a message"
+msgstr ""
+
+#: assets/build/844.js:4036
+msgid "Replying to"
+msgstr ""
+
+#: assets/build/844.js:4036
+#: assets/build/844.js:4255
+msgid "Reply..."
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Change File"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Choose File"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "The file is not valid"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Type your text..."
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Sending"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Send"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "How would you like to reply?"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Video"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "How would you like to create this step?"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Record"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Screen"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Voice"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Text"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Are you sure you want to delete this message?"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Search user or responses"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Conversations"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Sent"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Users"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Reply message"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Forward message"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Helpgent Image"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Range slider is not available in free version"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Promoter Score is not available in free version"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Multi Select is not available in free version"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Picture select is not available in free version"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Rating is not available in free version"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Replied via"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "esc to"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "cancel"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "enter to"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "save"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Delete message"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Message deleted successfully"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Forward this message"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Reply"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Forward"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Links"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Videos"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Media"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Media Filter"
+msgstr ""
+
+#: assets/build/844.js:4255
+msgid "Reveal in conversation"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Form submission"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Email template"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Notify User On"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Button to submit form"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Button to confirm answer"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Max file size allowed: %s %s"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Background type"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Select a background for the Form Bubble to seamlessly integrate it with your website's design. Choose the background from the form screens or upload a new image."
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Form texts"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Button texts"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Helpgent branding"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Save incomplete data"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Allow anonymous submission"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Users can submit forms without validation. It disables conversation features."
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Enable progress count"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Enable or disable the progress counter within the form area."
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Enable form bubble"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Customize form bubble"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Overlay text"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Shape"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Border color"
+msgstr ""
+
+#: assets/build/862.js:723
+#: assets/build/944.js:1
+msgid "General"
+msgstr ""
+
+#: assets/build/862.js:723
+msgid "Email Notification"
+msgstr ""
+
+#: assets/build/865.js:5505
+msgid "This item is a Pro Feature"
+msgstr ""
+
+#: assets/build/865.js:5505
+msgid "We are sorry, this item is not available on your plan. Please upgrade to unlock these awesome feature."
+msgstr ""
+
+#: assets/build/865.js:5505
+#: assets/build/975.js:53
+msgid "Upgrade Now To Get Access"
+msgstr ""
+
+#: assets/build/865.js:5505
+msgid "May be later"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Upgrade to pro version to unlock all the premium features"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Get now"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Site Key"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Secret Key"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Api Key"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "User Dashboard Page"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "User Registration Page"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Guest Auto Remove After 30 Days"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Attachment remove after days"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Attachment Auto Remove"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Unverified response remove after hours"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Max Allowed Email"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Select Active Media Driver"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Local Drive"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Google Drive"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Bunny Drive"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Server"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Integration"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Google reCaptcha"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Google map"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Resetting, please wait..."
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Loading, please wait..."
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Total Sent Email:"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Reset"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Are you sure to reset the total email sent count?"
+msgstr ""
+
+#: assets/build/944.js:1
+msgid "Could not save the settings, please try again."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "The name of the person who sent the message."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "The email of the person who sent the message."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "The name of the person who received the message."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "The email of the person who received the message."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "It outputs the current date."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "It outputs the user dashboard page link."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "It outputs this website title."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "It outputs this website URL."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "It outputs message details."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Message/Response user's IP address."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Allowed Placeholders"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Email Subject"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Thank You"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Thank you"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Email Body"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Registered User"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Form Submission"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "New User Message"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Form submission (Welcome Message)"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Admin New Reply"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "Email Content"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "No notification set up"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "This form has no notifications set up yet. If you want to set up notifications, you can do that now from the right sidebar and will message you when someone responds."
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "You are editing"
+msgstr ""
+
+#: assets/build/973.js:1
+msgid "email template"
+msgstr ""
+
+#: assets/build/975.js:1
+msgid "All Contacts"
+msgstr ""
+
+#: assets/build/975.js:1
+msgid "Export Guests"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Email Address"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Phone Number"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Company"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Contact not found"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Lead Collection is a Pro Feature"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "We are sorry lead collection is not available on your plan. Please upgrade to unlock this awesome feature."
+msgstr ""
+
+#: assets/build/975.js:53
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Guest"
+msgstr ""
+
+#: assets/build/975.js:53
+msgid "Lead"
+msgstr ""
+
+#: assets/build/hooks/index.js:4272
+#: assets/build/js/frontend/ChatBubble/index.js:1
+#: assets/build/js/frontend/ChatForm/index.js:4272
+#: assets/build/js/index.js:4272
+#: assets/build/modules.js:1
+msgid "The date field is required"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:1
+#: assets/build/modules.js:1
+msgid "Type a description"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:1
+#: assets/build/modules.js:1
+msgid "Now"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:1
+#: assets/build/modules.js:1
+msgid "OK"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:58
+#: assets/build/modules.js:58
+msgid "%s is required"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:152
+#: assets/build/modules.js:152
+msgid "Get Ready"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Drop Here"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/js/frontend/ChatBubble/index.js:914
+#: assets/build/modules.js:204
+#: assets/build/modules.js:914
+msgid "Type your question here!"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Please add a location on map"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "Yes"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:204
+#: assets/build/modules.js:204
+msgid "No"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:280
+#: assets/build/modules.js:280
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:280
+#: assets/build/modules.js:280
+msgid "OR"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:280
+#: assets/build/modules.js:280
+msgid "Upload Video"
+msgstr ""
+
+#: assets/build/js/frontend/ChatBubble/index.js:280
+#: assets/build/modules.js:280
+msgid "Max file size: %s"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Login to your account"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Enter your email address and we’ll send a password to your email."
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Enter your email address"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Email address"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:333
+msgid "Logging"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Since: %s"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "You are logged in as guest"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "You have %s conversation"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "You have submitted %s forms"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "You have submitted %s form"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "If you don’t create an account then all your data will be auto deleted as a guest user within 1 month."
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Create an Account"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Joined HelpGent on %s"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "About Me"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Not available"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Signing out"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+#: assets/build/js/index.js:9163
+msgid "Sign out"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "You must upload profile picture"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Change Email"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Email updated successfully"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "New email"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Invalid email address"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Confirm your mail"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Email not matched"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Profile"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Setup your profile details and preferences."
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Your file was too large"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Your selected file type is not supported."
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Change Profile Image"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "First Name"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Last name"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Account Email"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Display name publicly as"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Time zone"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "The about must not be greater than 180 characters."
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "0 "
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "180"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Updating"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Are you sure you want to delete your account?"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "You are about to delete your account namely: %s"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Your account will be scheduled for deletion. After 15 days your account will be deleted. If you login during time, the delete request will be canceled"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Password updated successfully"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Change Password"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Setup and update your password"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Current password"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "This field is required"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "New password"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Max 100 character"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Min 8 character"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Retype password"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Password not matched"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "ESC"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Your Settings"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Delete account"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Delete Account"
+msgstr ""
+
+#: assets/build/js/frontend/UserDashboard/index.js:4898
+msgid "Yes, Delete"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Nginx Config"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Small"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Medium"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Large"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Position"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Offset X"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "PX"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Offset Y"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Bubble size"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Leave empty to store as many days as you want."
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "KB"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "MB"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "You can use maximum of %s mins in free version"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "You can upload maximum of 300mb in free version"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Video Resolution"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "You can use maximum of %s in free version"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Media limits"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Enable Header"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Header Background Color"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "PRO"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Enable Footer"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Footer Text"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Email Footer Text"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "How your email template will look!"
+msgstr ""
+
+#: assets/build/js/index.js:5185
+msgid "Welcome Message"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Enable Google reCAPTCHA"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "To use google reCaptcha, first add reCAPTCHA key."
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Update reCaptcha key"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Add reCaptcha key"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "You need to enter your google reCaptcha site api key in order to display google reCaptcha. You can find your google reCaptcha site api key and detailed information %s"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "here."
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Enable Google Maps Platform"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "To use Google Maps, first add your Google Maps API key."
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Update Maps API key"
+msgstr ""
+
+#: assets/build/js/index.js:8856
+msgid "Add Google Maps API key"
+msgstr ""
+
+#: assets/build/js/index.js:9163
+msgid "Show user profile"
+msgstr ""
+
+#: assets/build/js/index.js:11218
+msgid "Type tag & hit enter"
+msgstr ""
+
+#: assets/build/js/index.js:11218
+msgid "Add tags"
+msgstr ""
+
+#: assets/build/js/index.js:11218
+msgid "Verified"
+msgstr ""
+
+#: assets/build/js/index.js:11218
+msgid "Unverified"
+msgstr ""
+
+#: assets/build/js/index.js:11218
+msgid "This participant didn’t complete the submission."
+msgstr ""
+
+#: assets/build/js/notification.js:1
+msgid "Helpgent Notification"
+msgstr ""
